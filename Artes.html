@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Página con imagen de fondo y botón personalizado</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* Establece la altura del body al 100% de la altura visible */
+        background-image: url('436667531_823988599177042_6740946153441286298_n.png'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta a tu imagen */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff; /* Establece el color del texto a blanco */
+  padding: 190px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente negro */
+}
+
+      .content h1 {
+      color: #C2B9BA; /* Establece el color del título a amarillo */
+      margin: 0;
+      padding: 0;
+      font-size: 48px; /* Tamaño del título */
+    }
+
+    .content p {
+      margin: 20px 0;
+      font-size: 24px; /* Tamaño del párrafo */
+    }
+
+    .content p {
+      margin: 30px 0;
+    }
+
+    .content a {
+      display: inline-block;
+      background-color: #7D7B76; /* Color de fondo del botón (rojo) */
+      color: white; /* Color del texto del botón */
+      text-decoration: none;
+      padding: 35px 35px 30px 40px; /* Agrega más relleno a la izquierda para la flecha */
+      border-radius: 30px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      position: relative; /* Necesario para posicionar la flecha */
+    }
+
+    .content a:before {
+      content: "→"; /* Agrega la flecha como contenido antes del botón */
+      position: absolute;
+      left: 22px;
+      top: 50%;
+      transform: translateY(-50%); /* Centra verticalmente la flecha */
+      font-size: 35px;
+    }
+
+    .content a:hover {
+      background-color: #4C4B4C; /* Color de fondo del botón al pasar el cursor (rojo más oscuro) */
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Bienvenido a mi Galeria fotográfica</h1>
+    <p>Nombre:Samantha Camacho Zambrano</p>
+    <p>En esta pagina mostraré instantes congelados en el tiempo.</p>
+    <a href="Galeria fotografica.html"></button></a>
+  </div>
+</body>
+</html>

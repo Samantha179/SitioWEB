@@ -90,17 +90,6 @@ main {
       background-position:center;
     }
 
-.content {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-color: #ffffff; /* Establece el color del texto a blanco */
-padding: 190px;
-background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente negro */
-}
-
     .content h1 {
     color: #C2B9BA; /* Establece el color del título a amarillo */
     margin: 0;
